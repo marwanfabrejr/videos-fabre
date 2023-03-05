@@ -20,34 +20,31 @@ const SuggestedAccounts = () => {
         Suggested Accounts
       </p>
       <div>
-        {allUsers.slice(0, 4).map(
-          (user: IUser) =>
-            userProfile._id !== user._id && (
-              <Link href={`/profile/${user._id}`} key={user._id}>
-                <div className='flex gap-3 hover:bg-primary p-2 cursor-pointer font-semibold rounded'>
-                  <div className='w-8 h-8'>
-                    <Image
-                      src={user.image}
-                      width={36}
-                      height={36}
-                      alt='user profile'
-                      layout='responsive'
-                      className='rounded-full'
-                    />
-                  </div>
-                  <div className='hidden xl:block'>
-                    <p className='flex gap-1 items-center text-md font-bold text-primary lowercase'>
-                      {user.userName.replaceAll(' ', '')}
-                      <GoVerified className='text-[#009bec]' />
-                    </p>
-                    <p className='capitalize text-gray-400 text-xs'>
-                      {user.userName}
-                    </p>
-                  </div>
-                </div>
-              </Link>
-            )
-        )}
+        {allUsers.slice(0, 4).map((user: IUser) => (
+          <Link href={`/profile/${user._id}`} key={user._id}>
+            <div className='flex gap-3 hover:bg-primary p-2 cursor-pointer font-semibold rounded'>
+              <div className='w-8 h-8'>
+                <Image
+                  src={user.image}
+                  width={36}
+                  height={36}
+                  alt='user profile'
+                  layout='responsive'
+                  className='rounded-full'
+                />
+              </div>
+              <div className='hidden xl:block'>
+                <p className='flex gap-1 items-center text-md font-bold text-primary lowercase'>
+                  {user.userName.replaceAll(' ', '')}
+                  <GoVerified className='text-[#009bec]' />
+                </p>
+                <p className='capitalize text-gray-400 text-xs'>
+                  {user.userName}
+                </p>
+              </div>
+            </div>
+          </Link>
+        ))}
       </div>
     </div>
   )
