@@ -13,6 +13,7 @@ const nextConfig = {
       'lh3.googleusercontent.com',
       'pbs.twimg.com',
       'scontent.fcai19-8.fna.fbcdn.net',
+      'i.postimg.cc',
     ],
   },
 }
