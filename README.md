@@ -27,5 +27,3 @@ For more examples, please take a look at the [application](https://videos-fabre.
 ### Deployment:
 
 [Project](https://videos-fabre.vercel.app/) deployed on Vercel.
-
-
