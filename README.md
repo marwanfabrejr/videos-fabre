@@ -12,21 +12,20 @@ As a user, you also have the ability to upload your own videos to the applicatio
 
 ![uploud video](https://i.postimg.cc/qMNF7DTw/screencapture-videos-fabre-vercel-app-upload-2023-08-21-15-50-47.png)
 
+For more examples, please take a look at the [application](https://videos-fabre.vercel.app/).
+
 ### Tech stack:
 
 - Tailwind CSS
 
-- Headless UI
+- ZUSTAND
 
-- Rapid API
+- Google Login
 
-- Car Images
+- Sanity.io
 
 ### Deployment:
 
-[Project](https://fabre-car-showcase.vercel.app/) deployed on Vercel.
+[Project](https://videos-fabre.vercel.app/) deployed on Vercel.
 
-### Component Structure:
-
-![Component Structure](https://github.com/marwanfabrejr/fabre-car-showcase/blob/main/assets/component-structure.png)
 
